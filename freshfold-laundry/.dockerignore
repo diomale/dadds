@@ -1,0 +1,5 @@
+# Dependencies are not needed for this static website.
+**/node_modules
+**/.git
+**/.DS_Store
+**/.env

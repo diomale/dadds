@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dadds Laundry shop</title>
+  <meta name="description" content="Dadds Laundry shop — a full-service laundry shop. Wash & fold, wash, dry & fold, pickup & delivery, and comforter & blanket cleaning. Book through WhatsApp or Facebook Messenger." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%231769D2'/%3E%3Ctext x='50' y='70' font-size='58' text-anchor='middle' fill='white' font-family='Arial,sans-serif' font-weight='bold'%3EF%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@1.65.0/dist/umd/lucide.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      window.lucide.createIcons({ icons: window.lucide.icons });
+    });
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <nav class="site-nav container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Dadds Laundry shop — Home">
+        <img src="assets/images/logo.jpeg" alt="Dadds Laundry shop logo" class="brand-icon" />
+        <span class="brand-name">Dadds <em>Laundry</em> shop</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation menu">
+        <svg data-lucide="menu" class="icon-open" aria-hidden="true"></svg>
+        <svg data-lucide="x" class="icon-close" aria-hidden="true"></svg>
+      </button>
+
+      <div class="nav-menu" id="primary-navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="https://wa.me/639202923946?text=Hello%20Dadds%20Laundry%20shop%21%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services." class="btn btn-primary nav-cta" data-whatsapp>Book Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Full-Service Laundry</p>
+          <h1 id="hero-heading">Fresh Clothes. <span class="text-accent">Fresh Confidence.</span></h1>
+          <p class="hero-text">Your trusted laundry partner for clean, fresh, and perfectly cared-for clothes. Let Dadds Laundry shop take care of your laundry needs.</p>
+          <div class="hero-actions">
+            <a href="https://wa.me/639202923946?text=Hello%20Dadds%20Laundry%20shop%21%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services." class="btn btn-primary" data-whatsapp>
+              <svg data-lucide="calendar-check" aria-hidden="true"></svg>
+              Book a Laundry Service
+            </a>
+            <a href="#services" class="btn btn-outline">
+              <svg data-lucide="arrow-right" aria-hidden="true"></svg>
+              Explore Our Services
+            </a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <img src="assets/images/inside-of-the-store-view.jpeg" alt="Inside the laundry store" width="1280" height="960" fetchpriority="high" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img src="assets/images/other-view-inside-the-store.jpeg" alt="Other view inside the laundry store" width="1280" height="960" loading="lazy" />
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow reveal">About Us</p>
+          <h2 class="reveal">About Dadds Laundry shop</h2>
+          <p class="reveal">At Dadds Laundry shop, we make laundry day easier. From everyday clothing to bulky blankets and comforters, we're here to help keep your laundry fresh, clean, and ready to use.</p>
+          <ul class="about-highlights">
+            <li class="reveal">
+              <span class="highlight-icon"><svg data-lucide="clock" aria-hidden="true"></svg></span>
+              <div>
+                <h3>Convenient Laundry Services</h3>
+                <p>From drop-off to pickup and delivery, we make laundry part of your routine instead of your to-do list.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="highlight-icon"><svg data-lucide="shield-check" aria-hidden="true"></svg></span>
+              <div>
+                <h3>Careful Cleaning</h3>
+                <p>Every load is handled with care, from everyday clothing to bulky bedding.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="highlight-icon"><svg data-lucide="calendar-check" aria-hidden="true"></svg></span>
+              <div>
+                <h3>Customer Convenience</h3>
+                <p>Simple booking through WhatsApp or Facebook Messenger, on your schedule and at your home.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">What We Do</p>
+          <h2 class="reveal">Our Services</h2>
+          <p class="reveal">Full-service cleaning for everyday laundry, complete wash-and-fold cycles, and bulky bedding.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon"><svg data-lucide="shirt" aria-hidden="true"></svg></div>
+            <h3>Wash &amp; Fold</h3>
+            <p>Everyday laundry cleaning with neatly folded clothes.</p>
+            <a href="https://wa.me/639202923946" class="btn btn-primary btn-block" data-whatsapp-service="wash-fold">Book on WhatsApp</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon"><svg data-lucide="wind" aria-hidden="true"></svg></div>
+            <h3>Wash, Dry &amp; Fold</h3>
+            <p>A complete laundry service that includes washing, drying, and folding.</p>
+            <a href="https://wa.me/639202923946" class="btn btn-primary btn-block" data-whatsapp-service="wash-dry-fold">Book on WhatsApp</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon"><svg data-lucide="truck" aria-hidden="true"></svg></div>
+            <h3>Pickup &amp; Delivery</h3>
+            <p>Convenient laundry pickup and delivery for customers who prefer service at their doorstep.</p>
+            <a href="https://wa.me/639202923946" class="btn btn-primary btn-block" data-whatsapp-service="pickup-delivery">Book on WhatsApp</a>
+          </article>
+          <article class="service-card reveal">
+            <img src="assets/images/stackmachine.jpeg" alt="Stacked laundry machines" class="service-card-img" width="1280" height="848" loading="lazy" />
+            <div class="service-icon"><svg data-lucide="bed-double" aria-hidden="true"></svg></div>
+            <h3>Comforter &amp; Blanket Cleaning</h3>
+            <p>Special cleaning services for bulky bedding and blankets.</p>
+            <a href="https://wa.me/639202923946" class="btn btn-primary btn-block" data-whatsapp-service="comforter-blanket">Book on WhatsApp</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section section-alt" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Process</p>
+          <h2 class="reveal">How It Works</h2>
+          <p class="reveal">Getting fresh laundry back is simple with Dadds Laundry shop.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <div class="step-icon"><svg data-lucide="message-circle" aria-hidden="true"></svg></div>
+            <h3>Book Your Service</h3>
+            <p>Contact Dadds Laundry shop through WhatsApp or Facebook Messenger.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step-icon"><svg data-lucide="package" aria-hidden="true"></svg></div>
+            <h3>We Handle Your Laundry</h3>
+            <p>Choose your laundry service and coordinate the drop-off or pickup arrangements.</p>
+          </li>
+          <li class="step reveal">
+            <div class="step-icon"><svg data-lucide="sparkles" aria-hidden="true"></svg></div>
+            <h3>Fresh and Ready</h3>
+            <p>Receive your clean laundry and arrange collection or delivery.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Why Choose -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Why Dadds Laundry shop</p>
+          <h2 class="reveal">Why Choose Dadds Laundry shop?</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <span class="why-icon"><svg data-lucide="clock" aria-hidden="true"></svg></span>
+            <h3>Convenient Laundry Services</h3>
+            <p>Laundry help made simple, whether by drop-off or doorstep pickup and delivery.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon"><svg data-lucide="refresh-cw" aria-hidden="true"></svg></span>
+            <h3>Multiple Cleaning Options</h3>
+            <p>Everyday clothing, complete wash-dry-fold, and bulky bedding care under one roof.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon"><svg data-lucide="truck" aria-hidden="true"></svg></span>
+            <h3>Pickup and Delivery Availability</h3>
+            <p>Pickup and delivery available for customers who prefer service at their doorstep.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon"><svg data-lucide="message-circle" aria-hidden="true"></svg></span>
+            <h3>Easy Customer Communication</h3>
+            <p>Booking and questions handled directly through WhatsApp or Facebook Messenger.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon"><svg data-lucide="wallet" aria-hidden="true"></svg></span>
+            <h3>Affordable Pricing Options</h3>
+            <p>Accessible pricing options for everyday laundry and deep cleaning services.</p>
+          </div>
+          <div class="why-card reveal">
+            <span class="why-icon"><svg data-lucide="shirt" aria-hidden="true"></svg></span>
+            <h3>Everyday Laundry Solutions</h3>
+            <p>Complete wash-and-fold and pickup-and-delivery solutions for daily laundry needs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Contact</p>
+          <h2 class="reveal">Get in Touch</h2>
+          <p class="reveal">We're here to help with your laundry needs.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-methods reveal">
+            <a class="contact-item" href="tel:+639202923946">
+              <span class="contact-icon"><svg data-lucide="phone" aria-hidden="true"></svg></span>
+              <div class="contact-text">
+                <h3>Call Now</h3>
+                <p>09202923946</p>
+              </div>
+            </a>
+            <a class="contact-item" href="https://wa.me/639202923946?text=Hello%20Dadds%20Laundry%20shop%21%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services.">
+              <span class="contact-icon"><svg data-lucide="message-circle" aria-hidden="true"></svg></span>
+              <div class="contact-text">
+                <h3>WhatsApp</h3>
+                <p>Message us for fast assistance.</p>
+              </div>
+            </a>
+            <a class="contact-item" href="https://www.facebook.com/DddaLs">
+              <span class="contact-icon"><svg data-lucide="send" aria-hidden="true"></svg></span>
+              <div class="contact-text">
+                <h3>Facebook</h3>
+                <p>Message our Facebook page.</p>
+              </div>
+            </a>
+            <a class="contact-item" href="https://maps.app.goo.gl/UH5gxDejbQSp8iU78">
+              <span class="contact-icon"><svg data-lucide="map-pin" aria-hidden="true"></svg></span>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>View on Google Maps.</p>
+              </div>
+            </a>
+          </div>
+          <div class="contact-hours reveal">
+            <h3>Operating Hours</h3>
+            <p class="hours-value">Daily, 7:00 AM – 8:00 PM</p>
+            <p>We're open every day to serve your laundry needs.</p>
+            <div class="contact-actions">
+              <a href="tel:+639202923946" class="btn btn-primary">Call Now</a>
+              <a href="https://wa.me/639202923946?text=Hello%20Dadds%20Laundry%20shop%21%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services." class="btn btn-outline">WhatsApp</a>
+              <a href="https://www.facebook.com/DddaLs" class="btn btn-outline">Facebook</a>
+              <a href="https://maps.app.goo.gl/UH5gxDejbQSp8iU78" class="btn btn-outline">View Location</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="section booking" id="booking" aria-labelledby="booking-heading">
+      <div class="container booking-inner reveal">
+        <div class="booking-copy">
+          <p class="eyebrow eyebrow-light">Booking</p>
+          <h2 id="booking-heading">Ready for Fresh, Clean Laundry?</h2>
+          <p>Let Dadds Laundry shop make your laundry day easier. Get in touch with us today!</p>
+        </div>
+        <div class="booking-actions">
+          <a href="https://wa.me/639202923946?text=Hello%20Dadds%20Laundry%20shop%21%20I%20would%20like%20to%20inquire%20about%20your%20laundry%20services." class="btn btn-light btn-lg" data-whatsapp>
+            <svg data-lucide="message-circle" aria-hidden="true"></svg>
+            Book via WhatsApp
+          </a>
+          <a href="https://www.facebook.com/DddaLs" class="btn btn-outline-light btn-lg">
+            <svg data-lucide="send" aria-hidden="true"></svg>
+            Message us on Facebook
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand brand-footer" aria-label="Dadds Laundry shop — Home">
+          <img src="assets/images/logo.jpeg" alt="Dadds Laundry shop logo" class="brand-icon" />
+          <span class="brand-name">Dadds <em>Laundry</em> shop</span>
+        </a>
+        <p>Dadds Laundry shop is a full-service laundry business helping households keep their clothes clean, fresh, and ready to use.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <ul>
+          <li><a href="tel:+639202923946">09202923946</a></li>
+          <li><a href="https://www.facebook.com/DddaLs">Facebook: DddaLs</a></li>
+          <li><a href="https://maps.app.goo.gl/UH5gxDejbQSp8iU78">View on Google Maps</a></li>
+        </ul>
+        <p>Operating Hours: Daily, 7:00 AM – 8:00 PM</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Dadds Laundry shop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <svg data-lucide="arrow-up" aria-hidden="true"></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
